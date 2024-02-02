@@ -18,11 +18,11 @@ const SpecialOffer = () => {
                 : ""
             }`}
           >
-            <img src={offer} className="w-full rounded-lg" />
+            <img src={offer} alt="images" className="w-full rounded-lg" />
           </div>
         )}
       </TrackVisibility>
-      <div className="flex flex-1 flex-col">
+      <div className="flex flex-1 flex-col pr-10">
         <h2 className="font-palanquin text-4xl capitalize font-bold lg:max-w-lg">
           <span className="text-purple-900">Special </span>
           Offer

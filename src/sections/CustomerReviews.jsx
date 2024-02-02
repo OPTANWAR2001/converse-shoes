@@ -3,7 +3,7 @@ import ReviewCard from "../components/ReviewCard";
 
 const CustomerReviews = () => {
   return (
-    <section className="max-container">
+    <section className="max-container py-14">
       <h3 className="font-palanquin text-center text-4xl font-bold">
         What Our
         <span className="text-purple-900"> Customers </span>
