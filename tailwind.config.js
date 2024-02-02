@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./index.html","./src/**/*.{js,jsx,ts,tsx}"],
+  content: ["./index.html", "./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     fontSize: {
       xs: ["12px", "16px"],
@@ -31,6 +31,7 @@ module.exports = {
       },
       backgroundImage: {
         hero: "url('assets/images/collection-background.svg')",
+      
         card: "url('assets/images/thumbnail-background.svg')",
       },
       screens: {
@@ -40,4 +41,3 @@ module.exports = {
   },
   plugins: [],
 };
-

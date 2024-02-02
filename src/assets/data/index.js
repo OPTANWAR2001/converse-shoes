@@ -19,7 +19,7 @@ import {
   thumbnailShoe1,
   thumbnailShoe2,
   thumbnailShoe3,
-} from "../image";
+} from "../images";
 
 export const navLinks = [
   { href: "#home", label: "Home" },
