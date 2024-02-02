@@ -1,10 +1,43 @@
-
-import React from "react";
+import {
+  CustomerReviews,
+  Footer,
+  Hero,
+  PopularProducts,
+  Services,
+  SpecialOffer,
+  Subscribe,
+  SuperQuality,
+} from "./sections/Index";
+import Nav from "./componets/Nav";
 function App() {
   return (
-    <div>
-      <h1 className="text-red-500 text-5xl">HEllo World</h1>
-    </div>
+    <main className="relative">
+      <Nav />
+{/*       <section className="xl:padding-l wide:padding-r padding-b">
+        <Hero />
+      </section>
+      <section className="padding">
+        <PopularProducts />
+      </section>
+      <section className="padding">
+        <SuperQuality />
+      </section>
+      <section className="padding-x py-10">
+        <Services />
+      </section>
+      <section className="padding">
+        <SpecialOffer />
+      </section>
+      <section className="bg-pale-blue padding">
+        <CustomerReviews />
+      </section>
+      <section className="padding-x sm:py-32 py-16 w-full">
+        <Subscribe />
+      </section>
+      <section className="padding bg-black padding-x padding-y pb-8">
+        <Footer />
+      </section> */}
+    </main>
   );
 }
 
