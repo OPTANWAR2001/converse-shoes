@@ -16,7 +16,7 @@ const Button = ({
     } rounded-full ${fullWidth && "w-full"}`}
     >
       {label}
-      {iconURL && (
+      {iconURL  (
         <img
           src={iconURL}
           alt="arrow right icon"
