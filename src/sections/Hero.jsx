@@ -20,7 +20,7 @@ const Hero = () => {
         </p>
         <h1 className="mt-10 font-palanquin text-8xl max-sm:text-[68px] max-sm:leading-[82px] font-bold">
           <span className="xl:bg-white xl:whitespace-nowrap relative z-10 xl:pr-10 max-sm::p-0">
-            New Collection
+            New Collections
           </span>
           <br />
           <span className="text-purple-900 inline-block mt-3">
